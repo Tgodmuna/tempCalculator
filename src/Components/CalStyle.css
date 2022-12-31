@@ -1,0 +1,38 @@
+.Holder{
+    display: flex;
+    background-color: cadetblue;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 13%;
+}
+input:focus{
+    border: 2px solid green ;
+}
+input{
+    border-radius: 9% 9% ;
+    padding: 10px;
+}
+input::placeholder{
+    color: aqua;
+}
+P{
+    text-align: center;
+    font-style: italic;
+    font-size: large;
+    font-weight: 500;
+}
+select{
+    background-color: aqua;
+    padding: 4px;
+}
+.Results{
+    border: 2px solid green;
+    
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+}
+#title{
+    color: white;
+}
